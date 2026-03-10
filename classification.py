@@ -6,7 +6,7 @@ import pandas as pd
 load_dotenv()
 api_key = os.getenv("API_KEY")
 print(api_key)
-client = openai.OpenAi(api_key=api_key)
+client = openai.OpenAI(api_key=api_key)
 
 software_requirements = pd.read_csv("cleaned_requirements.csv") # replace cleaned_requirements.csv with actual csv file of the clean dataset
 
