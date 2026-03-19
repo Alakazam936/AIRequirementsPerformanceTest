@@ -3,3 +3,6 @@ Will test Artificial Intelligence by processing data through a prompt chain, and
 
 To Run:
 .venv\Scripts\activate.bat
+
+To download dependencies run:
+pip install -r requirements.txt
